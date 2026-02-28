@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+}
+
+div {
+    font-size: 35px;
+}
+
+.text {
+
+    /*rem is relative to the font-size of the parent element, in this case, the div*/
+    font-size: 2rem;
+    /*em is relative to the font-size of the element itself, in this case, the p*/
+    font-size: 2em;
+
+    /*vh is relative to the height of the viewport*/
+    font-size: 10vh;
+    /*vw is relative to the width of the viewport*/
+    font-size: 10vw;
+
+    /* this will center the element horizontally */
+    margin: auto;
+
+}
+
+p {
+    /* border: orange 10px solid; */
+    border: orange, 10px, solid;
+
+    /* border will be black */
+    border: 10px solid;
+
+    /* border will be 1px solid black */
+    border: solid;
+
+    /* this won't work */
+    border: orange;
+
+    /* this will make the text in center of the page */
+    text-align: center;
+}
+
+box {
+    /* this will make the box 100px wide and 100px tall */
+    width: 100px;
+    height: 100px;
+
+    /* this will make the box red */
+    background-color: red;
+
+}
+
+box-container {
+    /* this will make the container 500px wide and 500px tall */
+    width: 500px;
+    height: 500px;
+
+    /* this will make the container light gray */
+    background-color: lightgray;
+
+    /* this will center the box in the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+/* seletcts the element with the unique id="unique" */
+#unique {
+    color: red;
+    font-weight: bold;
+}
+
+/* selects all elements with class="intro" */
+.intro {
+    color: pink;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* selects all <p> elements that contain an element with class="intro" */
+p .intro {
+    color: green;
+}
+
+/* selects all <p> elements that also have class="intro" */
+p.intro {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* selects all elements on the page */
+* {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    background-color: lightblue;
+    font-size: 16px;
+}
+
+/* selects all <div> and <p> elements */
+div, p {
+    border: 1px solid black;
+    padding: 10px;
+}
